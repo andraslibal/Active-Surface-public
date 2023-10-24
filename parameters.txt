@@ -1,11 +1,11 @@
-SX 100.0
+SX 200.0
 SY 200.0
 N_particles 1000
 N_pinningsites 70
 dt 0.005
-total_runtime 100001
-echo_time 5000
-movie_time 5000
+total_runtime 10000001
+echo_time 200
+movie_time 200
 stat_time 200
 generic_particle_R 1.0
 generic_particle_k_spring 20.0
@@ -13,7 +13,7 @@ generic_particle_motor_minimum_time 40000
 generic_pinningsite_R 0.5
 generic_pinningsite_fxmax 2.5
 active_grid_division 0.5
-active_grid_absorption 0.000900
-active_grid_recovery 0.000825
+active_pheromon_absorption 0.000001
+active_pheromon_recovery 0.001
 seedToSet 0
-passive_particle_percentage 0.5
+passive_particle_percentage 0.3
